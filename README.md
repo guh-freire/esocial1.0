@@ -1,6 +1,6 @@
 ﻿FORMULÁRIO DE ATUALIZAÇÃO DE DADOS DOS FUNCIONÁRIOS
 
-    SQL; Script Sql para criação de BD;
+    SQL; Script Sql para criação de tabela. Exexutar no BD;
 
     CSS; Estilo do Formulário;
 
