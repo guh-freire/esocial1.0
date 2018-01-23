@@ -1,2 +1,13 @@
-# esocial1.0
-Form Atualizacao Funcionários para Cadastro no e-Social
+﻿FORMULÁRIO DE ATUALIZAÇÃO DE DADOS DOS FUNCIONÁRIOS
+
+    SQL; Script Sql para criação de BD;
+
+    CSS; Estilo do Formulário;
+
+    cadastro.html; Já inclui validação de campo, script VIACEP para endereço;
+
+    cadastro.php; Informar dados do banco de dados a ser gravado;
+
+    Adicionado Recaptcha do Google - Basta inserir sua Key
+	
+    Banco de Dados totalmente modelado de acordo com leiaute do e-Social 2.4.0.1 FINAL.

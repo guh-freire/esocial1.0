@@ -1,0 +1,10 @@
+//** @utor hkanata@gmail.com     **//
+//** http://harukanata.no-ip.org **//
+
+Programa simples em PHP que faz upload de Vários Arquivos.
+Só copiar e colar a pasta toda em seu servidor PHP.
+
+:)
+
+Att,
+Touch
