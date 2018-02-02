@@ -8,11 +8,12 @@
 <body>
 <?php 
 
+//RETIRANDO ACENTOS    
 $search = explode(",","ç,æ,œ,á,é,í,ó,ú,ã,à,è,ì,ò,ù,ä,ë,ï,ö,ü,ÿ,â,ê,î,ô,û,å,e,i,ø,u");
 $replace = explode(",","c,ae,oe,a,e,i,o,u,a,a,e,i,o,u,a,e,i,o,u,y,a,e,i,o,u,a,e,i,o,u");
 
-// RECEBENDO OS DADOS PREENCHIDOS DO FORMULÁRIO !
-$filial = strtoupper($filial = str_replace($search, $replace, ($_POST ["filial"]))); //atribuição dos campos vindo do formulário para variavel
+// RECEBENDO OS DADOS PREENCHIDOS DO FORMULÁRIO E DEIXANDO EM CAIXA ALTA !
+$filial = strtoupper($filial = str_replace($search, $replace, ($_POST ["filial"])));
 $cpfTrab = strtoupper($cpfTrab = str_replace($search, $replace, ($_POST ["cpfTrab"])));
 $nisTrab = strtoupper($nisTrab = str_replace($search, $replace, ($_POST ["nisTrab"])));
 $nmTrab = strtoupper($nmTrab = str_replace($search, $replace, ($_POST ["nmTrab"])));
