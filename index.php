@@ -1455,7 +1455,7 @@ Exemplo: CNPJ 48.555.775/0075-96, número da filial 0075.<p>
     </fieldset><br>
 		
 <script src='https://www.google.com/recaptcha/api.js?hl=pt-BR'></script>
-<div class="g-recaptcha" data-sitekey="6Ldk3UEUAAAAALPW2b--M314x1FixK8LxwA8ydaT"></div><br>
+<div class="g-recaptcha" data-sitekey=""></div><br>
 
     <td>
         <input name="cadastrar" type="submit" id="cadastrar" value="Enviar" />
