@@ -93,10 +93,10 @@ $emailAltern	= strtoupper ($emailAltern = str_replace ($search, $replace, ($_POS
 
 //Gravando no banco de dados !
 
-$servername = "fe_cadesocial.mysql.dbaas.com.br";
-$username = "fe_cadesocial";
-$password = "A0v4yJXGj";
-$dbname = "fe_cadesocial";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 // Criando Conexão
 $conn = new mysqli($servername, $username, $password, $dbname);
